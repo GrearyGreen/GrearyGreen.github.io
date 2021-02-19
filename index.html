@@ -1,196 +1,34 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <!-- 网页构建，需要HTML,CSS,JavaScript -->
 <html lang="en">
 	<head>
+		<!-- 自闭合标签 -->
 		<meta charset="UTF-8">
+		<!-- 标签的属性 -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Document</title>
+		<!-- 30秒后刷新一次网页 -->
+		<!-- <meta http-equiv="Refresh" Content="30"> -->
+		<!-- 5秒后跳转到其他网页 -->
+		<!-- <meta http-equiv="Refresh" content="5,Url =  https://www.bilibili.com/"> -->
+		<!-- 关键字，爬虫用来提取网页关键字的 -->
+		<!-- <meta name="keywords" content="个人网页，开发者"> -->
+		<!-- 网站介绍 -->
+		<!-- <meta name="description" content="这是我的第一个个人网站"> -->
+		<!-- 兼容IE浏览器 -->
+		<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" > -->
+		<!-- 需要闭合的标签 -->
+		<title>我的网页</title>
+		<!-- Link标签 -->
+		<!-- <link rel="stylesheet" type="text/css" href="css/common.css"> -->
+		<!-- <link rel="shortcut icon" href="image/favicon.ico"> -->
+		<!-- 页面格式 -->
+
 	</head>
 	<body>
-		<!-- Headings -->
-		<h1>Heading One</h1>
-		<h2>Heading One</h2>
-		<h3>Heading One</h3>
-		<h4>Heading One</h4>
-		<h5>Heading One</h5>
-		<h6>Heading One</h6>
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-<!--  -->
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<a href="https://www.bilibili.com/" target="_blank">quis</a>
-		 nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<em>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate</em>
-		 <strong>velit esse
-		cillum dolore eu fugiat nulla pariatur. </strong>Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-		<!-- lists -->
-		<ul>
-			<li>list item 1</li>
-			<li>list item 1</li>
-			<li>list item 1</li>
-			<li>list item 1</li>
-			<li>list item 1</li>
-			<li>list item 1</li>
-		</ul>
-		<ol>
-			<li>list item 1</li>
-			<li>list item 1</li>
-			<li>list item 1</li>
-			<li>list item 1</li>
-			<li>list item 1</li>
-			<li>list item 1</li>
-		</ol>
-
-		<!-- Table -->
-		<table>
-			<thead>
-				<tr>
-					<th>
-						First name
-					</th>
-					<th>
-						First name
-					</th>
-					<th>
-						First name
-					</th>
-					<th>
-						First name
-					</th>
-					<th>
-						First name
-					</th>
-				</tr>
-			</thead>
-
-			<tbody>
-				<tr>
-					<td>
-						leomard
-					</td>
-					<td>
-						leomard
-					</td>
-					<td>
-						leomard
-					</td>
-					<td>
-						leomard
-					</td>
-					<td>
-						leomard
-					</td>
-				</tr>
-
-				<tr>
-					<td>
-						leomard
-					</td>
-					<td>
-						leomard
-					</td>
-					<td>
-						leomard
-					</td>
-					<td>
-						leomard
-					</td>
-					<td>
-						leomard
-					</td>
-				</tr>
-
-				<tr>
-					<td>
-						leomard
-					</td>
-					<td>
-						leomard
-					</td>
-					<td>
-						leomard
-					</td>
-					<td>
-						leomard
-					</td>
-					<td>
-						leomard
-					</td>
-				</tr>
-
-				<tr>
-					<td>
-						leomard
-					</td>
-					<td>
-						leomard
-					</td>
-					<td>
-						leomard
-					</td>
-					<td>
-						leomard
-					</td>
-					<td>
-						leomard
-					</td>
-				</tr>
-			</tbody>
-		</table>
-		<br>
-		<br>
-		<hr>
-		<br>
-
-		<!-- Forms -->
-		<form>
-			<div>
-				<label>First Name</label>
-				<input type="text" name="firstname" placeholder="Enter First Name">
-			</div>
-
-			<div>
-				<label>Last Name</label>
-				<input type="text" name="lastname" placeholder="Enter Last Name">
-			</div>
-
-			<div>
-				<label>Email</label>
-				<input type="text" name="email" placeholder="email">
-			</div>
-			<input type="submit" name="submit" value="submit">
-		</form>
-
-		<br>
-		<button>
-			This is a Button
-		</button>
-
-		<img src="img/pic.jpg" alt="This is a img tag">
-
-		<blockquote>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		</blockquote>
-
-		
+		<!-- id必须是唯一的 -->
+		<!-- 标签可以嵌套 -->
+		<!-- 提交表单使用form+input -->
+		<!-- 制作逼真的哔站 -->
+		<iframe style = "width:100%;height: 698px" src="https://www.bilibili.com/"></iframe>
 	</body>
 </html>
